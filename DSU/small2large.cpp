@@ -12,9 +12,7 @@ set<int> a, b;
 
 int32_t main() {
     ios_base::sync_with_stdio(false), cin.tie(nullptr);
-
-    freopen("test1.txt", "r", stdin);
-
+    
     cin >> n >> m;
     for(int i=0; i<n; ++i) {
         int x; cin >> x;
