@@ -1,3 +1,5 @@
+/* !!! NOT MY CODE !!! */
+
 /* In the name of Allah */
 // Welcome to the Soldier Side!
 // Where there's no one here, but me...
