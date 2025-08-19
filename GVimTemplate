@@ -1,0 +1,26 @@
+syntax enable
+set background=light
+colorscheme solarized
+set guifont=Hack_Nerd_Font_Mono:h9:cANSI:qDRAFT
+
+
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+
+set smartindent
+set number
+set relativenumber
+set expandtab
+
+" Default template
+:autocmd BufNewFile *.cpp 0r ~/.vim/templates/skeleton.cpp
+
+" Auto open temp.cpp file
+" autocmd VimEnter * execute 'edit' 'C:\Users\Named Aria\temp.cpp'
+
+" Save, compile & run the cpp file
+nnoremap <F9> :w<CR> !g++ temp.cpp -o run && "run.exe"<CR>
+
+" Copy the file
+nnoremap <F10> :%y+<CR>
